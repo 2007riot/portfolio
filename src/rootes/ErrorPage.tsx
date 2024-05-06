@@ -4,7 +4,7 @@ export default function ErrorPage() {
   const error = useRouteError()
   return (
     isRouteErrorResponse(error) ?
-        <i>{error.statusText || error.data}</i>
+        <div>Error: <i>{error.statusText || error.data}</i></div>
       : <div>Oops unknown error</div>
   )
 }

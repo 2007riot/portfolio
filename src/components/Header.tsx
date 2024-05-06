@@ -1,4 +1,4 @@
-import ContactButton from "./ContactButton";
+import ContactButton from "./tiny-views(atoms)/ContactButton";
 
 export default function Header() {
     return (

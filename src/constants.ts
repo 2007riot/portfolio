@@ -1,9 +1,22 @@
-interface Constants {
-    highlightsId: string
-    portfolioId: string
+
+interface Content {
+    highlights: string
+    value: string
+    portfolio:  string
+    technologies: string
+    projects:  string
+    intro: string
+    education: string
+    workExpierence: string
 }
 
-export const myConstants: Constants = {
-    highlightsId: "highlights",
-    portfolioId: "portfolio"
+export const myContent: Content = {
+    highlights: "Highlights",
+    value: "My values",
+    portfolio: "Portfolio",
+    technologies: "Technologies",
+    projects: "Projects",
+    intro: "Intro",
+    education: "Education and training",
+    workExpierence: "Work expierence"
 }

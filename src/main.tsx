@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// import './index.css'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Root from './rootes/Root'
 import ErrorPage from './rootes/ErrorPage'
 import MainPage from './rootes/MainPage'
 import About from './rootes/About'
+import {ProjectPage } from './rootes/ProjectPage'
 
 const router = createBrowserRouter([{
   path: "/",
@@ -20,6 +20,10 @@ const router = createBrowserRouter([{
     {
       path: "/about",
       element: <About />
+    },
+    {
+      path: "/project-info/:id",
+      element: <ProjectPage />
     }
   ]
 
