@@ -8,7 +8,10 @@ export const ProjectPage: FC = () => {
 
   return (
       project ?
-      <div className="text-3xl">{project?.title}</div>
+      <div>
+      <p className="text-3xl my-6">{project?.title}</p>
+      <p>{project.detailedDescription}</p>
+      </div>
       : <div>nothing found</div>
   )
 }

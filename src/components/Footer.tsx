@@ -19,14 +19,14 @@ export default function Footer() {
       
       <div>
         <a href="https://github.com/2007riot" target="_blank">
-          <FontAwesomeIcon className="size-12" icon={faGithub} />
+          <FontAwesomeIcon className="md:size-12 size-6" icon={faGithub} />
         </a>
         <a 
-        className="lg:ml-12 ml-6 sm:ml-0 sm:mt-64"
+        className="lg:ml-12 md:ml-4 ml-0 sm:mt-64"
           target="_blank"
           href="https://www.linkedin.com/in/galexanrova/"
         >
-          <FontAwesomeIcon className="size-12" icon={faLinkedin} />
+          <FontAwesomeIcon className="md:size-12 size-6" icon={faLinkedin} />
         </a>
       </div>
     </div>

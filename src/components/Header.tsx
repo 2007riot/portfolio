@@ -2,7 +2,7 @@ import ContactButton from "./tiny-views(atoms)/ContactButton";
 
 export default function Header() {
   return (
-    <div className="flex flex-row items-center mt-28">
+    <div className="flex flex-row items-center mt-28 mb-28">
       <div className="here one div">
         <h1 className="font-medium text-4xl">Hi, I'm Galina Aleksandrova</h1>
         <p className="font-semibold text-6xl py-9 uppercase">
