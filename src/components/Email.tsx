@@ -1,6 +1,7 @@
+import { myContent } from "../constants";
 
 export default function Email() {
     return (
-        <a className="underline" href="mailto: galina.aleks1012@gmail.com">galina.aleks1012@gmail.com</a>
+        <a className="underline" href={myContent.link}>{myContent.email}</a>
     )
 }

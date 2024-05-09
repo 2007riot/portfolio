@@ -7,10 +7,10 @@ import { myContent } from "../constants";
 import { projectData } from "../data/projectsData";
 export default function MainPage() {
   return (
-    < >
+    <div className="flex flex-col gap-12">
     <Header />
-    <Heading3 title={myContent.highlights}/>
-    <Highlights />
+    {/* <Heading3 title={myContent.highlights}/> */}
+    {/* <Highlights /> */}
     <Heading3 title={myContent.technologies} />
     <Technologies />
     <Heading3 title={myContent.projects}/>
@@ -24,6 +24,6 @@ export default function MainPage() {
     ) 
     : <div>No projects found</div> }
 
-    </>
+    </div>
 )
 }

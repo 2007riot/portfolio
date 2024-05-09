@@ -5,7 +5,8 @@ export interface Project {
     githubLink?: string,
     appStoreLink?: string,
     img: string,
-    color: string
+    color: string,
+    tech: string,
 }
 
 
@@ -13,11 +14,12 @@ export interface Project {
 const project1: Project = {
     id: 0,
     title: "Make Soap",
-    description: "lolknfv",
-    githubLink: "https://apps.apple.com/ge/app/make-soap/id1627081052",
+    description: "Simple and accurate soap making calculator made with SwiftUI",
+    githubLink: "https://github.com/2007riot/MakeSoap",
     appStoreLink: "https://apps.apple.com/ge/app/make-soap/id1627081052",
     img: "src/assets/MakeSoapImg.png",
-    color: "custom1" 
+    color: "custom1" ,
+    tech: "Swift, SwiftUI, UIkit"
 }
 
 const project2: Project = {
@@ -27,17 +29,18 @@ const project2: Project = {
     githubLink: "https://apps.apple.com/ge/app/make-soap/id1627081052",
     appStoreLink: "https://apps.apple.com/ge/app/make-soap/id1627081052",
     img: "src/assets/MakeSoapImg.png",
-    color: "custom2" 
+    color: "custom2" ,
+    tech: "TypeScript, Tailwind, React"
 }
 
 const project3: Project = {
-    id: 3,
-    title: "Taylor swift website",
-    description: "my taylor swift fan web page blag blah",
-    githubLink: "https://apps.apple.com/ge/app/make-soap/id1627081052",
-    appStoreLink: "https://apps.apple.com/ge/app/make-soap/id1627081052",
-    img: "src/assets/MakeSoapImg.png",
-    color: "custom3" 
+    id: 2,
+    title: "Adopta Amor",
+    description: "Final project during Frontend BootCamp at Factoria F5, Barcelona",
+    githubLink: "https://github.com/2007riot/Proyecto-final",
+    img: "src/assets/AdoptaAmorDesktop.png",
+    color: "custom3",
+    tech: "JavaScript, React, Css, Git, Agile" 
     
 }
 

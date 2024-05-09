@@ -8,7 +8,7 @@ export default function Navbar() {
     return (
 
         <div className="flex flex-row font-medium my-10 justify-between">
-            <Email />
+            
             <div className="font-bold">
                 <NavLink  className={({isActive})=>
                 isActive
@@ -20,7 +20,7 @@ export default function Navbar() {
                 ? "ml-8 underline"
                 : "ml-8 text-slate-800 font-normal"} to="/about">about</NavLink>
             </div>
-
+            <Email />
         </div>
 
     )
